@@ -1,5 +1,5 @@
 {
-  "name": "@magic-sdk/admin",
+  "name": "magic-admin-esm",
   "version": "1.4.1",
   "description": "Magic Authentication Admin Javascript SDK.",
   "author": "Magic Labs <team@magic.link>",
