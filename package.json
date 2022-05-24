@@ -1,15 +1,15 @@
 {
   "name": "magic-admin-esm",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Magic Authentication Admin Javascript SDK.",
   "author": "Magic Labs <team@magic.link>",
   "license": "MIT",
   "repository": "magiclabs/magic-admin-js",
-  "main": "dist/esm/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
   "exports": {
-    "import": "./dist/esm/index.js"
+    "import": "./src/index.ts"
   },
   "files": [
     "dist/**/*"
