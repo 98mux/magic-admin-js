@@ -11,3 +11,12 @@ export NODE_ENV=production
 
 npx tsc -p ./config/tsconfig.sdk.esm.json
 npx tsc -p ./config/tsconfig.sdk.cjs.json
+
+
+for f in dist/esm/*.js; do 
+    mv -- "$f" "${f%.js}.mjs"
+done
+
+for f in dist/esm/**/*.js; do 
+    mv -- "$f" "${f%.js}.mjs"
+done

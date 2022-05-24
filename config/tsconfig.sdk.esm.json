@@ -4,7 +4,9 @@
     "lib": ["es2020", "dom"],
     "target": "esnext",
     "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "outDir": "../dist/esm",
   },
-  "include": ["../src/**/*.ts"]
+  "include": ["../src/**/*.ts", "**/*.mjs"]
 }
