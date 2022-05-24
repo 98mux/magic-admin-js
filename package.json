@@ -5,14 +5,11 @@
   "author": "Magic Labs <team@magic.link>",
   "license": "MIT",
   "repository": "magiclabs/magic-admin-js",
-  "main": "dist/cjs/index.js",
+  "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/cjs/index.d.ts",
+  "types": "dist/esm/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
-    }
+    "import": "./dist/esm/index.js"
   },
   "files": [
     "dist/**/*"
@@ -74,5 +71,6 @@
       "npm",
       "released"
     ]
-  }
+  },
+  "type":"module"
 }
